@@ -313,6 +313,10 @@ footer p {
     font-family: 'FredokaOne-Regular';
 }
 
+#mc_embed_signup form {
+    text-align: center;
+}
+
 #knop2 {
     color: #48A2E0;
     padding: 10px;
