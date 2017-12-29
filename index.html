@@ -1,12 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/manifest.json">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <title>Drunken Donuts</title>
 </head>
+
 <body>
-    <h1>ruben devlieger</h1>
+    <header>
+        <nav class="navbar navbar-expand navbar-toggleable-sm fixed-top">
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class='logonav' src="images/logo.png" />
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="over_ons.html">Over ons
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="agenda.html">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="container" position: "relative">
+                    <img src="./images/homepage.gif" class="img-fluid" alt="actie" width="100%" height="500" />
+
+                    <div class="center">
+                        <img class='logo hover1' src="images/logo.png" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-sm-3" style="position:relative">
+                    <img class="img-fluid" id="verberg" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
+                </div>
+                <div class="col-sm-6">
+                    <div class=intro>
+                        <h3>Hey You!</h3>
+                        <p>Ben je verlekkerd op een heerlijke donut en hou je van een glaasje alcohol, dan moet je zeker en
+                            vast eens een bezoekje brengen aan onze Drunken Donut foodtruck ! De Drunken Donut is een leuke
+                            oldtimer Citroën HY waar men zich tegoed kan doen aan lekkere donuts met verschillende alcoholsmaakjes.
+                            Je kunt ons vinden op diverse festivals en evenementen in binnen- en buitenland. Dus, wie van
+                            een lekkere donut met een vleugje alcohol houdt: de Drunken Donut foodtruck is the place to be
+                            op uw volgende feestje. Trouwens, wist je dat je ons kunt inhuren voor een party thuis. Origineel
+                            en niet duur !
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-sm-3" style="position:relative">
+                    <img class="img-fluid" id="spiegel" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
+                    <div class="mobileShow">
+                        <img class="img-fluid" id="mobileShow" src="./images/drankmobiel.jpg" alt="" style="bottom:0; position:absolute" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- end content -->
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+
+    <!-- animaite -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#button").click(function () {
+                $("div.automobiel").addClass('animatie-auto');
+                $("div.boompjes").addClass('animatie-boompjes');
+            });
+        })
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+    <script type="text/javascript" src="css/snowstorm.js">
+        snowStorm.flakesMaxActive = 100;
+        snowStorm.useTwinkleEffect = true;
+    </script>
+
+
+
 </body>
+
 </html>
