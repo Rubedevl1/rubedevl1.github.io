@@ -5,34 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
   <link rel="stylesheet" href="css/vendor/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
-  <link rel="manifest" href="./favicons/manifest.json">
-  <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <!-- favicon-->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
 
 
-
-
-  <title>Drunken Donuts</title>
+  <title>Bar 5</title>
 </head>
 
 <body>
   <header>
+
+      <!-- navbar-->
+
     <nav class="navbar navbar-expand navbar-toggleable-sm fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="index.html">
-        <img class='logonav' src="images/logo.png" />
+        <div class="sprites" style="width: 75px; height: 55px;"></div>
       </a>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
@@ -45,7 +60,7 @@
             <a class="nav-link" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="agenda.html">Agenda</a>
+            <a class="nav-link" href="reservatie.html">Reservatie</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -55,167 +70,173 @@
     </nav>
   </header>
 
-  <div class="container-fluid">
+    <!-- banner-->
+
+  <div class="container-fluid container-header">
     <div class="row">
       <div class="col-sm-12">
 
         <div class="container" position: "relative">
-          <!-- THIS HAS BEEN CHANGED -->
-          <!--<img src="./images/banner2.jpg" class="img-fluid" alt="actie" width="100%" height="450" />-->
           <div class="parallax2"></div>
           <div class="center">
             <h1>
-              <SPAN STYLE="color: #48A2E0">MENU</SPAN>
+              MENU
             </h1>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- rij 1 -->
 
-    <div class="row">
-      <div class="col-sm-3" style="position:relative">
-        <img class="img-fluid" id="verberg" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
-      </div>
-      <div class="col-sm-6">
-        <div class=intro>
-          <h3>Ons aanbod</h3>
-          <p>In onze Drunken Donut foodtruck vind je donuts met een ruime keuze aan alcoholsmaken,
-            <br> de één al wat straffer dan de andere.
-            <br> Voor de geheelonthouder is er natuurlijk onze BOB Donut.
-            <br>
-            <br> Hieronder vind je een overzicht van onze verschillende donuts.
-          </p>
+    <div id="menu">
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <img class="img-fluid" src="./images/5strepen.jpg" alt="" />
+
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank5.jpg" alt="" />
+          <div class="overlay1">
+            <div class="text1">
+              <h3> Aperitief</h3>
+              Aperol Spritz, Campari,
+              <br>Ricard, Crodino
+            </div>
+          </div>
+        </div>
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <div class="text1">
+            <h3>-Producten-
+              <br>uit de streek</h3>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank2.jpg" alt="" />
+          <div class="overlay4">
+            <div class="text1">
+              <h3> Gin</h3>
+              Bulldog, Gordon, Opihr,
+              <br>Beefeater
+            </div>
+          </div>
+        </div>
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <div class="text1">
+            <h3>-Unieke-
+              <br>gerechten</h3>
+          </div>
         </div>
       </div>
-      <div class="col-sm-3" style="position:relative">
-        <img class="img-fluid" id="spiegel" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
-        <div class="mobileShow">
-          <img class="img-fluid" id="mobileShow" src="./images/drankmobiel.jpg" alt="" style="bottom:0; position:absolute" />
+
+      <!-- rij 2 -->
+
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/bier.jpg" alt="" />
+          <div class="overlay3">
+            <div class="text1">
+              <h3> Bier</h3>
+              Jupiler, Jupiler 0%,
+              <br>Leffe, Duvel, Chimay
+
+            </div>
+          </div>
+        </div>
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <div class="text1">
+            <h3>-Verrassend-</h3>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank3.jpg" alt="" />
+          <div class="overlay1">
+            <div class="text1">
+              <h3> Soft Drinks</h3>
+              Cola, Sprite, Ice Tea,
+              <br>Fanta, Tonic, ...
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank4.jpg" alt="" />
+          <div class="overlay1">
+            <div class="text1">
+              <h3> Mocktails</h3>
+              Citronnade, Mocktail-duo,
+              <br>Cranberry cooler
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/eten1.jpg" alt="" />
+          <div class="overlay3">
+            <div class="text1">
+              <h3> Fingerfood</h3>
+              Verandert dagelijks
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- rij 3 -->
+
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/coffee.jpg" alt="" />
+          <div class="overlay4">
+            <div class="text1">
+              <h3> Hot Drinks</h3>
+              Koffie, Hot Chocolate,
+              <br>Tea
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank7.jpg" alt="" />
+          <div class="overlay1">
+            <div class="text1">
+              <h3> Cocktails</h3>
+              Caipirinha, Bellini, Mojito,
+              <br>Cosmopolitan, Margarita
+            </div>
+          </div>
+        </div>
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <div class="text1">
+            <h3>-Vers bereid-</h3>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img class="img-fluid" src="./images/drank6.jpg" alt="" />
+          <div class="overlay2">
+            <div class="text1">
+              <h3> Strong Drinks</h3>
+              Jack Daniels, Malibu,
+              <br> Absolut Vodka
+            </div>
+          </div>
+        </div>
+        <div id="verberg" class="col-sm-2" style="background-color: #1b1b1b">
+          <img class="img-fluid" src="./images/logomenu.png" alt="" />
+
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu1.jpg" alt="" />
-        <div class="overlay1">
-          <div class="text1">
-            <h2>
-              <SPAN STYLE="color: #48A2E0">Homemade Donut</SPAN>
-            </h2>
-            topping: chocolade
-            <br> vulling: jenever
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu2.jpg" alt="" />
-        <div class="overlay2">
-          <div class="text2">
-            <h2> Jägerdonut</h2>
-            topping: zwarte chocolade
-            <br> vulling: Jägermeister
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu3.jpg" alt="" />
-        <div class="overlay1">
-          <div class="text1">
-            <h2>
-              <SPAN STYLE="color: #48A2E0">Campari Donut</SPAN>
-            </h2>
-            topping: cherry
-            <br> vulling: Campari
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu4.jpg" alt="" />
-        <div class="overlay2">
-          <div class="text2">
-            <h2>J&B Donut</h2>
-            topping: chocolade
-            <br> vulling: whiskey
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu5.jpg" alt="" />
-        <div class="overlay1">
-          <div class="text1">
-            <h2>
-              <SPAN STYLE="color: #48A2E0">BoB Donut</SPAN>
-            </h2>
-            topping: vanille
-            <br> vulling: geen
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu6.jpg" alt="" />
-        <div class="overlay2">
-          <div class="text2">
-            <h2>Absolute Donut</h2>
-            topping: vanille
-            <br> vulling: vodka
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu7.jpg" alt="" />
-        <div class="overlay1">
-          <div class="text1">
-            <h2>
-              <SPAN STYLE="color: #48A2E0">Passoa Donut</SPAN>
-            </h2>
-            topping: cherry
-            <br> vulling: Passoa
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu8.jpg" alt="" />
-        <div class="overlay2">
-          <div class="text2">
-            <h2>Baileys Donut</h2>
-            topping: chocolade
-            <br> vulling: Baileys
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <img class="img-fluid" src="./images/menu9.jpg" alt="" />
-        <div class="overlay1">
-          <div class="text1">
-            <h2>
-              <SPAN STYLE="color: #48A2E0">Amaretto Donut</SPAN>
-            </h2>
-            topping: caramel
-            <br> vulling: Amaretto
-          </div>
-        </div>
-      </div>
-    </div>
-
-
 
     <!-- footer -->
 
-
     <footer>
       <div class="row" id="footer">
-
-        <div class="col-sm-2">
-
+        <div class="col-sm-2" id="verberg">
           <p>
             Contact:
             <br>Ruiterijstraat 33
@@ -223,13 +244,11 @@
           </p>
           <p>
             Email:
-            <br>
-            <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top" class="link">drunkendonuts@outlook.com</a>
+            <br>Bar5@gmail.com
           </p>
           <p>
-            Tel: 051 99 46 00
+            Tel: +32 474 53 27 99
           </p>
-
         </div>
         <div class="col-sm-2">
 
@@ -248,26 +267,27 @@
 
         </div>
         <div class="col-sm-2">
-
-          <p>
-            Artevelde Hogeschool
-            <br>Industrieweg 232
-            <br>9030 Gent-Mariakerke
-          </p>
-          <p>
-            Tel: 09 234 86 00
-          </p>
-
-          <a class="btn btn-primary" id="knop" href="http://eepurl.com/dfTK8j" role="button">Schrijf je in voor onze nieuwsbrief
-          </a>
-
+          <div id="verberg">
+            <p>
+              Artevelde Hogeschool
+              <br>Industrieweg 232
+              <br>9030 Gent
+            </p>
+            <p>
+              Tel: 09 234 86 00
+            </p>
+          </div>
+          <div class="text-center">
+            <a class="btn btn-primary" id="knop" href="contact.html" role="button">Schrijf je in voor onze nieuwsbrief
+            </a>
+          </div>
 
         </div>
         <div class="col-sm-6">
 
           <ul class="rechts footer">
             <li>
-              <a href="https://www.facebook.com/Drunken-Donuts-169212540477176/" target="_blank">
+              <a href="https://www.facebook.com/Bar-5-2141627826097203/" target="_blank">
                 <i id="iconhover" class="icons fab fa-facebook"></i>
               </a>
             </li>
@@ -286,13 +306,13 @@
                 <i id="iconhover" class="icons fab fa-twitter"></i>
               </a>
             </li>
-            <li>
+            <li id="verberg">
               <a href="https://pinterest.com/" target="_blank">
                 <i id="iconhover" class="icons fab fa-pinterest"></i>
               </a>
             </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UCAFhzHIRpbEJ2tZj-F1qEmQ?view_as=subscriber/" target="_blank">
+            <li id="verberg">
+              <a href="https://www.youtube.com/channel/UCAFhzHIRpbEJ2tZj-F1qEmQ" target="_blank">
                 <i id="iconhover" class="icons fab fa-youtube"></i>
               </a>
             </li>
@@ -316,12 +336,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-
-    <script type="text/javascript" src="css/snowstorm.js">
-      snowStorm.flakesMaxActive = 100;
-      snowStorm.useTwinkleEffect = true;
-    </script>
-
 
 
 </body>

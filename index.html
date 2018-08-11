@@ -5,32 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+    <!-- favicon-->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
-    <link rel="manifest" href="./favicons/manifest.json">
-    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-
-    <title>Drunken Donuts</title>
+    <title>Bar 5</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand navbar-toggleable-sm fixed-top">
 
+        <!-- navbar-->
+
+        <nav class="navbar navbar-expand navbar-toggleable-sm fixed-top">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-                <img class='logonav' src="images/logo.png" />
+                <div class="sprites" style="width: 75px; height: 55px;"></div>
             </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -43,7 +57,7 @@
                         <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="agenda.html">Agenda</a>
+                        <a class="nav-link" href="reservatie.html">Reservatie</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -54,53 +68,48 @@
     </header>
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
 
-                <div class="container" position: "relative">
-                    <img src="./images/homepage.gif" class="img-fluid" alt="actie" width="100%" height="500" />
+    <!-- carousel-->
 
-                    <div class="center">
-                        <img class='logo hover1' src="images/logo.png" />
-                    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <!-- wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="homepage1">
+                <div class="carousel-caption d-md-block">
                 </div>
             </div>
-
-
-
-            <div class="row">
-                <div class="col-sm-3" style="position:relative">
-                    <img class="img-fluid" id="verberg" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
-                </div>
-                <div class="col-sm-6">
-                    <div class=intro>
-                        <h3>Hey You!</h3>
-                        <p>Ben je verlekkerd op een heerlijke donut en hou je van een glaasje alcohol, dan moet je zeker en
-                            vast eens een bezoekje brengen aan onze Drunken Donut foodtruck ! De Drunken Donut is een leuke
-                            oldtimer Citroën HY waar men zich tegoed kan doen aan lekkere donuts met verschillende alcoholsmaakjes.
-                            Je kunt ons vinden op diverse festivals en evenementen in binnen- en buitenland. Dus, wie van
-                            een lekkere donut met een vleugje alcohol houdt: de Drunken Donut foodtruck is the place to be
-                            op uw volgende feestje. Trouwens, wist je dat je ons kunt inhuren voor een party thuis. Origineel
-                            en niet duur !
-                        </p>
-
-                    </div>
-                </div>
-                <div class="col-sm-3" style="position:relative">
-                    <img class="img-fluid" id="spiegel" src="./images/drank.png" alt="" style="bottom:0; position:absolute" />
-                    <div class="mobileShow">
-                        <img class="img-fluid" id="mobileShow" src="./images/drankmobiel.jpg" alt="" style="bottom:0; position:absolute" />
-                    </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" "img-fluid" src="./images/homepage2.jpg" data-color="firebrick" alt="Second Image">
+                <div class="carousel-caption d-md-block">
                 </div>
             </div>
-
+            <div class="carousel-item">
+                <iframe class="d-block w-100" "img-fluid" src="https://www.youtube.com/embed/3Dp67j8LoAo?rel=0&amp;showinfo=0" frameborder="0"
+                    gesture="media" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                <div class="carousel-caption d-md-block">
+                </div>
+            </div>
         </div>
+        <!-- controls -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-
-
     <!-- end content -->
+
     <!-- Bootstrap core JavaScript
         ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -116,8 +125,6 @@
 
     <!-- animaite -->
 
-
-
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous">
     </script>
@@ -131,13 +138,34 @@
     </script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
-    <script type="text/javascript" src="css/snowstorm.js">
-        snowStorm.flakesMaxActive = 100;
-        snowStorm.useTwinkleEffect = true;
+    <script>
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: "true"
+        });
     </script>
+    <script>
+        var $item = $('.carousel-item');
+        var $wHeight = $(window).height();
 
+        $item.height($wHeight);
+        $item.addClass('full-screen');
 
+        $('.carousel img').each(function () {
+            var $src = $(this).attr('src');
+            var $color = $(this).attr('data-color');
+            $(this).parent().css({
+                'background-image': 'url(' + $src + ')',
+                'background-color': $color
+            });
+            $(this).remove();
+        });
 
+        $(window).on('resize', function () {
+            $wHeight = $(window).height();
+            $item.height($wHeight);
+        });
+    </script>
 </body>
 
 </html>

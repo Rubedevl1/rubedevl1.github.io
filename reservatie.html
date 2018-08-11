@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/vendor/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- favicon-->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <title>Bar 5</title>
+</head>
+
+<body>
+  <header>
+
+    <!-- navbar-->
+
+    <nav class="navbar navbar-expand navbar-toggleable-sm fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <div class="sprites" style="width: 75px; height: 55px;"></div>
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="over_ons.html">Over ons
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservatie.html">Reservatie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner-->
+
+  <div class="container-fluid container-header">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <div class="container" position: "relative">
+
+          <div class="parallax1"></div>
+          <div class="center">
+            <h1>
+              RESERVATIE
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1"></div>
+
+        <!-- afbeelding-->
+
+        <div class="col-sm-5" id="verberg">
+          <div id="resfoto">
+            <img class="img-fluid" src="./images/reservatie.jpg" alt="">
+          </div>
+        </div>
+
+        <!-- formulier-->
+
+        <div class="col-sm-5">
+          <div class="container">
+            <div id="bladeren">
+
+              <div id="contact">
+                <form id="reservatie" action="" method="post">
+                  <h3 style="margin-bottom: 25px">Reserveer nu!</h3>
+
+                  <fieldset>
+                    <input placeholder="Naam" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Email Addres" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Telefoonnummer" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="datum (dd-mm-jjjj)" type="date" min="20-06-2018" max="15-09-2018" required>
+                  </fieldset>
+                  <fieldset>
+                    <label for="aantal">Aantal personen</label>
+                    <select id="aantal" name="aantal">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                    </select>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Laat hier een bericht achter" tabindex="5"></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="Reserveer" type="submit" id="contact-submit" data-submit="...Sending">Reserveer</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <footer>
+        <div class="row" id="footer">
+          <div class="col-sm-2" id="verberg">
+            <p>
+              Contact:
+              <br>Ruiterijstraat 33
+              <br>8800 Roeselare
+            </p>
+            <p>
+              Email:
+              <br>Bar5@gmail.com
+            </p>
+            <p>
+              Tel: +32 474 53 27 99
+            </p>
+          </div>
+          <div class="col-sm-2">
+
+            <p>
+              Student:
+              <br>Devlieger Ruben
+              <br>2SV-CMO GD
+            </p>
+            <p>
+              Bachelor in de grafische en digitale media
+            </p>
+
+            <a href="./dossier/dossier.pdf" target="_blank">
+              <p>Dossier</p>
+            </a>
+
+          </div>
+          <div class="col-sm-2">
+            <div id="verberg">
+              <p>
+                Artevelde Hogeschool
+                <br>Industrieweg 232
+                <br>9030 Gent
+              </p>
+              <p>
+                Tel: 09 234 86 00
+              </p>
+            </div>
+            <div class="text-center">
+              <a class="btn btn-primary" id="knop" href="contact.html" role="button">Schrijf je in voor onze nieuwsbrief
+              </a>
+            </div>
+
+          </div>
+          <div class="col-sm-6">
+
+            <ul class="rechts footer">
+              <li>
+                <a href="https://www.facebook.com/Bar-5-2141627826097203/" target="_blank">
+                  <i id="iconhover" class="icons fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i id="iconhover" class="icons fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://snapchat.com/l/en-gb/" target="_blank">
+                  <i id="iconhover" class="icons fab fa-snapchat-ghost"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i id="iconhover" class="icons fab fa-twitter"></i>
+                </a>
+              </li>
+              <li id="verberg">
+                <a href="https://pinterest.com/" target="_blank">
+                  <i id="iconhover" class="icons fab fa-pinterest"></i>
+                </a>
+              </li>
+              <li id="verberg">
+                <a href="https://www.youtube.com/channel/UCAFhzHIRpbEJ2tZj-F1qEmQ" target="_blank">
+                  <i id="iconhover" class="icons fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+      </footer>
+
+
+
+
+      <!-- end content -->
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+</body>
+
+</html>
