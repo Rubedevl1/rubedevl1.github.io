@@ -185,9 +185,17 @@ h5 {
 }
 
 .mail {
-    margin: 20px;
+    margin-top: 10px;
     padding: 10px;
-    width: 250px;
+    width: 220px;
+    height: 30px;
+}
+
+.naam {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 220px;
     height: 30px;
 }
 
@@ -301,13 +309,12 @@ footer p {
 #knop1 {
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     background-color: #1b1b1b;
     border: none;
-    width: 250px;
-    height: 75px;
+    width: 220px;
+    height: 45px;
     border-radius: 0px;
 }
 
@@ -417,7 +424,7 @@ footer ul li a {
     h3 {
         text-align: center;
         font-size: 25pt;
-        line-height: 20pt;
+        line-height: 25pt;
         padding-top: 20px;
     }
     h4 {
@@ -425,6 +432,10 @@ footer ul li a {
         font-size: 20pt;
         line-height: 30pt;
         padding-top: 30px;
+    }
+
+    #footermobiel{
+        margin-top: 20px;
     }
     footer p {
         margin: 10px;
