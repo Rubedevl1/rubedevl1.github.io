@@ -364,6 +364,10 @@ footer ul li a {
     color: #87C38F;
 }
 
+.navbar-nav .active a {
+    color: #87C38F;
+}
+
 #iconhover:hover {
     color: #87C38F;
 }
